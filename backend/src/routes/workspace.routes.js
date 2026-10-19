@@ -1,6 +1,6 @@
 const express = require('express');
 const middleware = require('../middlewares/auth.middlewares');
-const workspaceController = require('../controllers/workspace.controllers');
+const workspaceController = require('../controllers/workspace.controller');
 
 const router = express.Router();
 
