@@ -3,7 +3,7 @@ const {
     addWorkspaceMember: addWorkspaceMemberService,
     updateWorkspaceMemberRole: updateWorkspaceMemberRoleService,
     removeWorkspaceMember: removeWorkspaceMemberService
-} = require("../services/workspaceMemberService");
+} = require("../services/workspaceMember.Service");
 
 
 

@@ -4,7 +4,7 @@ const {
     getWorkspaceById,
     updateWorkspace: updateWorkspaceService,
     deleteWorkspace: deleteWorkspaceService
-} = require("../services/workspaceService");
+} = require("../services/workspace.Service");
 
 
 // CREATE WORKSPACE
