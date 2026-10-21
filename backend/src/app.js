@@ -6,6 +6,8 @@ const authRoutes = require('./routes/auth.routes');
 const workspaceRoutes = require('./routes/workspace.routes');
 const workspaceMemberRoutes = require('./routes/workspaceMember.routes');
 const projectRoutes = require('./routes/project.routes');
+
+const taskRoutes = require('./routes/task.routes');
 const app = express();
 
 
@@ -26,5 +28,6 @@ app.use('/api/workspaces', workspaceMemberRoutes);
 
 app.use('/api/workspaces', projectRoutes);
 
+app.use('/api', taskRoutes);
 
 module.exports = app;
